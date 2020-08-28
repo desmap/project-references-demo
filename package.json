@@ -4,7 +4,7 @@
   "description": "The structure of this repo is as follows:",
   "main": "index.js",
   "scripts": {
-    "build": "tsc -b -v",
+    "build": "webpack",
     "clean": "tsc -b --clean"
   },
   "repository": {
@@ -19,9 +19,14 @@
   "homepage": "https://github.com/RyanCavanaugh/project-references-demo#readme",
   "dependencies": {
     "@babel/core": "^7.11.4",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-proposal-decorators": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
     "@babel/preset-typescript": "^7.10.4",
     "babel-loader": "^8.1.0",
+    "babel-plugin-parameter-decorator": "^1.0.16",
+    "babel-plugin-transform-typescript-metadata": "^0.3.0",
     "ts-loader": "^8.0.3",
     "typescript": "^3.9.7",
     "webpack": "^4.44.1",
