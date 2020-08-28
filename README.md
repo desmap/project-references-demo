@@ -6,7 +6,7 @@ This branch is to test whether babel-loader builds Typescript project references
 
 ## Installation
 ```
-git checkout https://github.com/appzuka/project-references-demo.git
+git clone https://github.com/appzuka/project-references-demo.git
 cd project-references-demo
 git checkout babel
 yarn install
