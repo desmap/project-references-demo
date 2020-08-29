@@ -4,7 +4,8 @@
   "description": "The structure of this repo is as follows:",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "build-another-package": "webpack & tsc -incremental --declaration --emitDeclarationOnly --preserveWatchOutput",
+    "build-the-rest": "tsc -b",
     "clean": "tsc -b --clean"
   },
   "repository": {
