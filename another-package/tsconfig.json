@@ -1,7 +1,7 @@
 {
   "extends": "../tsconfig-base.json",
   "compilerOptions": {
-    "outDir": "../dist/aonther-package"
+    "outDir": "../dist/another-package"
   },
   "references": [{ "path": "../animals" }, { "path": "../zoo" }]
 }
